@@ -44,7 +44,7 @@ class SegmentTree
     {
         if (low == high)
         {
-            segtree[low] = val;
+            segtree[idx] = val;
         }
         int mid = (low + high) / 2;
         if (ind <= mid)
